@@ -20,6 +20,10 @@ const printQuestion = (qstn) => {
   console.log(quest);
 };
 
+const congratulations = (name) => {
+  console.log(`Congratulations, ${name}!`);
+};
+
 const process = (makeQst, isRight, correctAnsw, name) => {
   let count = 0;
   while (count < 3) {
@@ -36,7 +40,7 @@ const process = (makeQst, isRight, correctAnsw, name) => {
       return 0;
     }
   }
-  return console.log(`Congratulations, ${name}!`);
+  return congratulations(name);
 };
 
 export {
