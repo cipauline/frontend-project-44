@@ -36,7 +36,7 @@ const process = (makeQst, isRight, correctAnsw, name) => {
       return 0;
     }
   }
-  console.log(`Congratulations, ${name}!`);
+  return console.log(`Congratulations, ${name}!`);
 };
 
 export {
