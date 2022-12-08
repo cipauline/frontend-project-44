@@ -30,7 +30,7 @@ const process = (makeQst, isRight, correctAnsw, name) => {
       console.log('Correct!');
       count += 1;
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnsw(qst)}'`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnsw(qst)}'.`);
       console.log(`Let's try again, ${name}!`);
       count = 0;
     }
